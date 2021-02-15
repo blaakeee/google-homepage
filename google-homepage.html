@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google</title>
+    <link rel="icon" href="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png">
+<style>
+
+    a {
+        color: black;
+        font-size: 12px;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    #grid {
+        max-width: 20px;
+    }
+
+    .button {
+        background-color: #073ae0;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        padding: 8px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: -4px;
+        cursor: pointer;
+    }
+
+    #topbar_left {
+        display: inline-block;
+        float: left;
+        padding-left: 15px;
+        color: #000;
+        opacity: 0.75;
+    }
+    .topbar_left li {
+        display: inline-block;
+        float: left;
+        padding-left: 15px;
+        text-align: left;
+        color: #000;
+        opacity: 0.75;
+    }
+
+    #topbar_right {
+        display: inline-block;
+        float: right;
+        padding-left: 15px;
+    }
+
+    .topbar_right li {
+        display: inline-block;
+        float: left;
+        padding-left: 15px;
+        color: #000;
+        opacity: 0.75
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding-top: 109px;
+    }
+    .searchbar{
+        height:45px;
+        border:none;
+        width:500px;
+        font-size:16px;
+        outline: none;
+    }
+    .voice{
+        height:20px;
+        top:5px;
+        left:10px;
+    }
+
+    .logo{
+
+    }
+    .bar{
+        margin:0 auto;
+        width:575px;
+        border-radius:30px;
+        border:1px solid #dcdcdc;
+
+    }
+    .bar:hover{
+        box-shadow: 1px 1px 8px 1px #dcdcdc;
+    }
+    .bar:focus-within{
+        box-shadow: 1px 1px 8px 1px #dcdcdc;
+        outline:none;
+    }
+
+
+    
+</style>
+</head>
+
+<body>
+<div id="viewport" class="main">
+    <div id="topspace" class="spacer" style="top:0;left:0;right:0;width:100%">
+        <div id="topbar_left" class="navbar">
+            <ul class="topbar_left">
+                <li><a  href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header" target="_top">About</a></li>
+                <li><a href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA" target="_top">Store</a></li>
+            </ul>
+        </div>     
+        <div id="topbar_right" class="navbar" style="min-width: 220px;">
+            <ul class="topbar_right">
+                <li><a class="gmail" href="https://mail.google.com/mail/?tab=wm&amp;ogbl" target="_top">Gmail</a></li>
+                <li><a class="gb_g" data-pid="2" href="https://www.google.ca/imghp?hl=en&amp;tab=wi&amp;ogbl" target="_top">Images</a></li>
+                <li><img id="grid" src="images/grid.png"></li>
+                <li><a href="#" class="button">Sign In</a></li>
+            </ul>
+
+        </div>
+
+    <div id="search" class="content">
+        <div class="logo">
+            <img alt="Google" src="/home/blake/program/odin/google-homepage/images/google.png">
+        </div>
+        <div class="bar">
+            <input class="searchbar" type="text" title="Search">
+            <a href="#"> <img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
+        </div>
+    </div>
+
+    <div id="bottombar" class="botnav">
+
+    </div>
+
+</body>
+
+</html>
